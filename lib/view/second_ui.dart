@@ -38,50 +38,10 @@ class _SecondUIState extends State<SecondUI> {
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
-            ListTile(
-              trailing:  Icon(
-                Icons.exit_to_app,
-                color: Colors.blue,
-              ),
-              title:  Text(
-                'ออกจากการใช้งาน',
-              ),
-              onTap: (){},
-            ),
-            Divider(
-          
-              color: Colors.red,
-            ),
-            ListTile(
-              trailing: Text(
-                '999',
-              ),
-              leading: Icon(
-                Icons.access_alarm,
-              ),
-              title: Text(
-                'ตางรางสอบ',
-              ),
-              onTap: (){},
-            ),
-            ListTile(
-              leading: Icon(
-                Icons.table_chart,
-                color: Colors.blue,
-              ),
-              title: Text(
-                'ตารางสอน',
-              ),
-              onTap: (){},
-            ),
-            ListTile(
-              title: Text(
-                'หน้าแรก',
-              ),
-              onTap: (){},
-              
-               
-            ),
+            
+           
+            
+            
             UserAccountsDrawerHeader(
               otherAccountsPictures: [
                 Image.asset(
@@ -106,6 +66,50 @@ class _SecondUIState extends State<SecondUI> {
                   ),
                 )
               ),
+            ),
+            ListTile(
+              title: Text(
+                'หน้าแรก',
+              ),
+              onTap: (){},
+              
+               
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.table_chart,
+                color: Colors.blue,
+              ),
+              title: Text(
+                'ตารางสอน',
+              ),
+              onTap: (){},
+            ),   
+            ListTile(
+              trailing: Text(
+                '999',
+              ),
+              leading: Icon(
+                Icons.access_alarm,
+              ),
+              title: Text(
+                'ตางรางสอบ',
+              ),
+              onTap: (){},
+            ),
+            Divider(
+          
+              color: Colors.red,
+            ),
+            ListTile(
+              trailing:  Icon(
+                Icons.exit_to_app,
+                color: Colors.blue,
+              ),
+              title:  Text(
+                'ออกจากการใช้งาน',
+              ),
+              onTap: (){},
             ),
           ],
         ),
