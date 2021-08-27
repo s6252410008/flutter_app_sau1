@@ -38,10 +38,6 @@ class _SecondUIState extends State<SecondUI> {
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
-            
-           
-            
-            
             UserAccountsDrawerHeader(
               otherAccountsPictures: [
                 Image.asset(
@@ -54,7 +50,7 @@ class _SecondUIState extends State<SecondUI> {
                 ) ,
               ),
               accountName: Text(
-                'KITSANA UDOMKEAW',
+                'Kitsana Udomkeaw',
               ),
               accountEmail: Text(
                 'ID:6252410008',
@@ -78,7 +74,7 @@ class _SecondUIState extends State<SecondUI> {
             ListTile(
               leading: Icon(
                 Icons.table_chart,
-                color: Colors.blue,
+                color: Colors.green[700],
               ),
               title: Text(
                 'ตารางสอน',
@@ -113,11 +109,7 @@ class _SecondUIState extends State<SecondUI> {
             ),
           ],
         ),
-
       ),
-    
-    
-    
     );
   }
 }
