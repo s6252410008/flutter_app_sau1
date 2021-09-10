@@ -42,19 +42,21 @@ class _ThirdUIState extends State<ThirdUI> {
         currentIndex: selectIndex,
         items: [
           BottomNavigationBarItem(
-            icon: Icons.assessment_sharp,
+            icon: Icon(
+              Icons.assignment,),
             label:  'page1',
           ),
           BottomNavigationBarItem(
-            icon: Icons.assessment_outlined,
+            icon: Icon(
+              Icons.assignment_ind_rounded),
             label:  'page2',
-          ),
-          BottomNavigationBarItem(
-            icon: Icons.assessment_outlined,
+          ),BottomNavigationBarItem(
+            icon: Icon(
+              Icons.cabin_outlined),
             label:  'page3',
-          ),
-          BottomNavigationBarItem(
-            icon: Icons.assessment_outlined,
+          ),BottomNavigationBarItem(
+            icon: Icon(
+              Icons.expand_less),
             label:  'page4',
           ),
         ],
